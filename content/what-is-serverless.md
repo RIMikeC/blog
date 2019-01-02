@@ -15,8 +15,11 @@ A team of developers that never has to worry about provisioning, monitoring, pat
 Writing software without having to specify, procure, install and configure servers means that the software delivery and testing cycles are significantly cheaper than they would otherwise be. Once the code is running, the costs are again reduced, for example, you no longer need over-provision in order to cope with peak demand.
 
 ### What does it look like?
-Consider a normal infrastuture stack. There always room for some variation, but typically you will need something like this:
+Consider a normal infrastuture stack. There always room for some variation, but typically they look something like this:
 {diagram}
-So in a 
+If you need a complete stack in order to provide any value, then are all parts equally important? Should you spend an equal amount on each part of the stack? Well, you don't have to think deeply about the problem to realise that some parts of the stack are more important than others, but still it may not be immediately apparent as to where to focus limited resources. The best way to realise where to focus is to see where you can add value to your business. Infrastructure, though vital, will never actually add any value. Value is only added by the applications you write and by your data.
+{diagram}
+So now it's easy to see why serverless makes sense for modern businesses - it lets you focus on parts of the stack that add value, whilst consuming all the other (boring) parts as a service.
+
 
 
