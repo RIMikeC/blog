@@ -1,0 +1,4 @@
+in cw Logs Insights, filter @type = "REPORT" | fields  @duration
+then from the Actions drop-down, select copy 
+paste it somewhere e.g. WORD
+
