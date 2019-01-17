@@ -10,10 +10,10 @@ home = ["HTML", "RSS"]
 
 [params]
   header_image = "images/edmonton.jpg"
-  SEOTitle = "seotitle"
+  SEOTitle = "Mike Charles"
   description = "my desc"
   keyword = "list of key wrods"
-  slogan = "my slogan"
+  slogan = "Love code. Hate servers."
 
 #  image_404 = "img/404-bg.jpg"
 #  title_404 = "你来到了没有知识的荒原 :("
@@ -30,7 +30,7 @@ home = ["HTML", "RSS"]
   facebook  = "https://www.facebook.com/M1keCharles"
   twitter   = "looknoservers"
   linkedin  = "https://www.linkedin.com/in/mikecharles/"
-  github    = "full profile url in github"
+  github    = "https://github.com/RIMikeC"
 
   friends = true
   bookmarks = false
