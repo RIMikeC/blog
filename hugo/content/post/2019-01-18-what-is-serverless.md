@@ -1,14 +1,20 @@
 ---
-title: "What Is Serverless?"
-image:	"/Users/itmc4/blog/hugo/static/images/edmonton.jpg"
-subtitle:   "Hello World, Hello Blog"
+title: "What Is Serverless? AWS"
+subtitle:   "AWS"
+image:  "/Users/itmc4/blog/hugo/static/images/edmonton.jpg"
 author:     "mikec"
+published: true
 date: 2019-01-09T13:29:51Z
-draft: true
+tags:
+    - AWS
+    - serverless
+    - lambda
+URL: "/2019/01/18/what-is-serverless.md"
+categories:  ["Tech" ]
 ---
 
 # What is Serverless?
-
+AWS:
 Serverless computing is a service, that runs your code for you on a server that it determines.
 Although your code runs on a server, the term "serverless" is used as the person who writes the code does not need to know anything about the server.
 ###
