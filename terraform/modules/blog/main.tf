@@ -8,6 +8,10 @@ data "aws_ami" "ami" {
   }
 }
 
+resource "aws_key_pair" "keys" {
+  public_key = "${file("${path.module}/test230119.pub")}"
+}
+
 resource aws_instance "blog" {
   ami                         = "${data.aws_ami.ami.id}"
   instance_type               = "t2.micro"
@@ -19,8 +23,3 @@ resource aws_instance "blog" {
   user_data                   = "${file("${path.module}/startblog.sh")}"
 }
 
-// also add user_data=""
-
-resource "aws_key_pair" "keys" {
-  public_key = "${file("${path.module}/test230119.pub")}"
-}
