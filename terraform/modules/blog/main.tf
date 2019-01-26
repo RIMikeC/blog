@@ -21,5 +21,9 @@ resource aws_instance "blog" {
   key_name                    = "${aws_key_pair.keys.key_name}"
   vpc_security_group_ids      = ["sg-0cb6af1b772ad904f"]
   user_data                   = "${file("${path.module}/startblog.sh")}"
-}
+  iam_instance_profile        = "${aws_iam_instance_profile.ec2_instance_profile.name}"
 
+  lifecycle {
+    create_before_destroy = true
+  }
+}
