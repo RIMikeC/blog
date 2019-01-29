@@ -8,6 +8,19 @@ data "aws_ami" "ami" {
   }
 }
 
+resource "aws_lb" "nlb" {
+  name               = "blog-nlb"
+  internal           = false
+  load_balancer_type = "network"
+  subnets            = "${var.subnet_list}"
+
+  enable_deletion_protection = true
+
+  tags = {
+    Environment = "dev"
+  }
+}
+
 resource "aws_key_pair" "keys" {
   public_key = "${file("${path.module}/test230119.pub")}"
 }
