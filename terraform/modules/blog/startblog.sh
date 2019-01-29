@@ -2,7 +2,7 @@
 yum update -y
 yum install -y git
 mkdir ~/.ssh
-ssh-keygen -t rsa -b 4096  -N '' -C ${LOGNAME}@$HOSTNAME -f ~/.ssh/id_rsa
+ssh-keygen -t rsa -b 4096  -N '' -C root@$HOSTNAME -f ~/.ssh/id_rsa
 ssh-keyscan -H github.com > /etc/ssh/ssh_known_hosts
 mkdir ~/blog
 cd ~/blog
