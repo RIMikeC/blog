@@ -16,6 +16,7 @@ data "aws_region" "current" {}
 module "blog" {
   aws_region  = "${data.aws_region.current.name}"
   environment = "dev"
+  subnet_list = ["subnet-c0dc22a6"]
 
   tags = {
     owner = "mikec"
