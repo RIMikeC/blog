@@ -1,0 +1,3 @@
+cd ~/blog/hugo
+MY_IP=`ifconfig eth0 | awk '$1=="inet" {print $2;exit}'`
+nohup hugo server --bind=$MY_IP --baseURL=http://${MY_IP}:1313 -t hugo-theme-cleanwhite &
