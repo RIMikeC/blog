@@ -1,3 +1,4 @@
 cd ~/blog/hugo
 MY_IP=`ifconfig eth0 | awk '$1=="inet" {print $2;exit}'`
-nohup hugo server --bind=$MY_IP --baseURL=http://${MY_IP}:1313 -t hugo-theme-cleanwhite &
+LB_NAME="blog-alb-973993070.eu-west-1.elb.amazonaws.com"
+nohup hugo server --bind=$MY_IP --baseURL=${LB_NAME}:1313 -t hugo-theme-cleanwhite &
