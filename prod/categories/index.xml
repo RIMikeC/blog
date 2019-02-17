@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Mike Charles</title>
+    <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/categories/</link>
+    <description>Recent content in Categories on Mike Charles</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dad Jokes</title>
+      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/categories/dad-jokes/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/categories/dad-jokes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/categories/tech/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/categories/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/categories/tips/</link>
+      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
+      
+      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/categories/tips/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

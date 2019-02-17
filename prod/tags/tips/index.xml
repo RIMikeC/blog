@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips on Mike Charles</title>
+    <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/tips/</link>
+    <description>Recent content in Tips on Mike Charles</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Mar 2018 18:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>如何配置docker使用HTTP代理</title>
+      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/2018/03/13/use-docker-behind-http-proxy/</link>
+      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
+      
+      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/2018/03/13/use-docker-behind-http-proxy/</guid>
+      <description>&lt;h2 id=&#34;ubuntu&#34;&gt;Ubuntu&lt;/h2&gt;
+
+&lt;h3 id=&#34;设置docker使用http-proxy&#34;&gt;设置docker使用http proxy&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo /etc/default/docker
+
+export http_proxy=&amp;quot;http://127.0.0.1:3128/&amp;quot;
+export https_proxy=&amp;quot;http://127.0.0.1:3128/&amp;quot;
+export HTTP_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
+export HTTPS_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用脚本和定时任务自动设置windows HTTP 代理服务器</title>
+      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/2017/11/23/windows-proxy-scripts/</link>
+      <pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/2017/11/23/windows-proxy-scripts/</guid>
+      <description>问题 last line</description>
+    </item>
+    
+  </channel>
+</rss>
