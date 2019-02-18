@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Mike Charles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Feb 2019 11:32:08 +0000</lastBuildDate>
     
 	<atom:link href="http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019 02 18 About Me</title>
+      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/post/2019-02-18-about-me/</link>
+      <pubDate>Mon, 18 Feb 2019 11:32:08 +0000</pubDate>
+      
+      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/post/2019-02-18-about-me/</guid>
+      <description>I am a veteran cloud architect with a passion for serverless architecture. I wrote my first programs 35 years ago and I first worked with public cloud 13 years ago, when I was part of the team that designed and built UK1 – Europe’s first Sun Grid Engine.
+Although I consider myself an architect, I&amp;rsquo;m very hands-on. I&amp;rsquo;ve designed and built systems from early Raspberry Pis, up to IBM mainframes and almost everytrhing in between.</description>
+    </item>
     
     <item>
       <title>Dad Jokes</title>
