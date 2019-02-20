@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Mike Charles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Feb 2019 16:42:48 +0000</lastBuildDate>
     
 	<atom:link href="http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,18 +14,9 @@
     <item>
       <title>Aws</title>
       <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/aws/</link>
-      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Feb 2019 16:42:48 +0000</pubDate>
       
       <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/aws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/docker/</link>
-      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
-      
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/docker/</guid>
       <description></description>
     </item>
     
@@ -41,7 +32,7 @@
     <item>
       <title>Lambda</title>
       <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/lambda/</link>
-      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Feb 2019 16:42:48 +0000</pubDate>
       
       <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/lambda/</guid>
       <description></description>
@@ -59,18 +50,9 @@
     <item>
       <title>Serverless</title>
       <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/serverless/</link>
-      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Feb 2019 16:42:48 +0000</pubDate>
       
       <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/serverless/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tips</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/tips/</link>
-      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
-      
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/tips/</guid>
       <description></description>
     </item>
     

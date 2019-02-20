@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Mike Charles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Feb 2019 11:32:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Feb 2019 16:42:48 +0000</lastBuildDate>
     
 	<atom:link href="http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blog Technology</title>
+      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/2019/02/20/blog-tech.md</link>
+      <pubDate>Wed, 20 Feb 2019 16:42:48 +0000</pubDate>
+      
+      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/2019/02/20/blog-tech.md</guid>
+      <description>Blog Technology text text text text last line</description>
+    </item>
     
     <item>
       <title>2019 02 18 About Me</title>
@@ -73,34 +82,6 @@ I read that the arabs invented the concept of zero.</description>
       <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/2019/01/18/what-is-serverless.md</guid>
       <description>What is Serverless? Serverless computing is a service, that runs your code for you on a server that it determines. Although your code runs on a server, the term &amp;ldquo;serverless&amp;rdquo; is used as the person who writes the code does not need to know anything about the server.
 It&amp;rsquo;s a confusing term. There are servers in a serverless environment, of course there are. However, there is a clear separation of responsibilities between the people who manage the servers and the people who write the code that runs on them.</description>
-    </item>
-    
-    <item>
-      <title>如何配置docker使用HTTP代理</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/2018/03/13/use-docker-behind-http-proxy/</link>
-      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
-      
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/2018/03/13/use-docker-behind-http-proxy/</guid>
-      <description>&lt;h2 id=&#34;ubuntu&#34;&gt;Ubuntu&lt;/h2&gt;
-
-&lt;h3 id=&#34;设置docker使用http-proxy&#34;&gt;设置docker使用http proxy&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo /etc/default/docker
-
-export http_proxy=&amp;quot;http://127.0.0.1:3128/&amp;quot;
-export https_proxy=&amp;quot;http://127.0.0.1:3128/&amp;quot;
-export HTTP_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
-export HTTPS_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-    <item>
-      <title>使用脚本和定时任务自动设置windows HTTP 代理服务器</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/2017/11/23/windows-proxy-scripts/</link>
-      <pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/2017/11/23/windows-proxy-scripts/</guid>
-      <description>问题 last line</description>
     </item>
     
     <item>
