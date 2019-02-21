@@ -33,12 +33,28 @@ home = ["HTML", "RSS"]
   github    = "https://github.com/RIMikeC"
 
   friends = true
-  bookmarks = false
+  bookmarks = true
   about_me = true
 
-  [[params.friend_link]]
-  title = "Linda的博客"
-  href =  "https://zhaozhihan.com"
+  [[params.bookmark_link]]
+  title =  "Martin Fowler"
+  href =  "https://martinfowler.com"
+  [[params.bookmark_link]]
+  title = "RITech"
+  href =  "https://www.ritechstyle.com/"
+  [[params.bookmark_link]]
+  title = "AWS"
+  href = "https://www.amazon.com/ap/signin"
+  [[params.bookmark_link]]
+  title =  "hugo"
+  href = "https://gohugo.io/"
+  [[params.bookmark_link]]
+  title = "The Agile Manifesto"
+  href = "http://agilemanifesto.org/"
 
-  bookmarks = true
+
+  [[params.friend_link]]
+  title = "Jeff"
+  href =  "https://aws.amazon.com/blogs/aws/author/jbarr/"
+
 
