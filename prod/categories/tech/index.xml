@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on Mike Charles</title>
-    <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/categories/tech/</link>
+    <link>http://mikecharl.es/categories/tech/</link>
     <description>Recent content in Tech on Mike Charles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Feb 2019 16:42:48 +0000</lastBuildDate>
     
-	<atom:link href="http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mikecharl.es/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog Technology</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/2019/02/20/blog-tech.md</link>
+      <link>http://mikecharl.es/2019/02/20/blog-tech.md</link>
       <pubDate>Wed, 20 Feb 2019 16:42:48 +0000</pubDate>
       
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/2019/02/20/blog-tech.md</guid>
+      <guid>http://mikecharl.es/2019/02/20/blog-tech.md</guid>
       <description>Blog Technology text text text text last line</description>
     </item>
     
     <item>
       <title>Lambda Stats</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/post/2019-01-20-lambda-stats/</link>
+      <link>http://mikecharl.es/post/2019-01-20-lambda-stats/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/post/2019-01-20-lambda-stats/</guid>
+      <guid>http://mikecharl.es/post/2019-01-20-lambda-stats/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lambda and networks</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/post/2019-01-20-lambda-vpc-comparison/</link>
+      <link>http://mikecharl.es/post/2019-01-20-lambda-vpc-comparison/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/post/2019-01-20-lambda-vpc-comparison/</guid>
+      <guid>http://mikecharl.es/post/2019-01-20-lambda-vpc-comparison/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lambda costs</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/post/2019-01-20-lambda-costs/</link>
+      <link>http://mikecharl.es/post/2019-01-20-lambda-costs/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/post/2019-01-20-lambda-costs/</guid>
+      <guid>http://mikecharl.es/post/2019-01-20-lambda-costs/</guid>
       <description>A post aboot how much it really costs to run lambda?</description>
     </item>
     
     <item>
       <title>What Is Serverless?</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/2019/01/18/what-is-serverless.md</link>
+      <link>http://mikecharl.es/2019/01/18/what-is-serverless.md</link>
       <pubDate>Wed, 09 Jan 2019 13:29:51 +0000</pubDate>
       
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/2019/01/18/what-is-serverless.md</guid>
+      <guid>http://mikecharl.es/2019/01/18/what-is-serverless.md</guid>
       <description>What is Serverless? Serverless computing is a service, that runs your code for you on a server that it determines. Although your code runs on a server, the term &amp;ldquo;serverless&amp;rdquo; is used as the person who writes the code does not need to know anything about the server.
 It&amp;rsquo;s a confusing term. There are servers in a serverless environment, of course there are. However, there is a clear separation of responsibilities between the people who manage the servers and the people who write the code that runs on them.</description>
     </item>

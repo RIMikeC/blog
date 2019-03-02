@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networks on Mike Charles</title>
-    <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/networks/</link>
+    <link>http://mikecharl.es/tags/networks/</link>
     <description>Recent content in Networks on Mike Charles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 20 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mikecharl.es/tags/networks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>lambda and networks</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/post/2019-01-20-lambda-vpc-comparison/</link>
+      <link>http://mikecharl.es/post/2019-01-20-lambda-vpc-comparison/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/post/2019-01-20-lambda-vpc-comparison/</guid>
+      <guid>http://mikecharl.es/post/2019-01-20-lambda-vpc-comparison/</guid>
       <description></description>
     </item>
     

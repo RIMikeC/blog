@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dad Jokes on Mike Charles</title>
-    <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/categories/dad-jokes/</link>
+    <link>http://mikecharl.es/categories/dad-jokes/</link>
     <description>Recent content in Dad Jokes on Mike Charles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 20 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/categories/dad-jokes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mikecharl.es/categories/dad-jokes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dad Jokes</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/post/2019-01-20-jokes/</link>
+      <link>http://mikecharl.es/post/2019-01-20-jokes/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/post/2019-01-20-jokes/</guid>
+      <guid>http://mikecharl.es/post/2019-01-20-jokes/</guid>
       <description>I argued with my wife in a lift.
 I was wrong on so many levels.
 I&amp;rsquo;m letting other people dot the Is.
