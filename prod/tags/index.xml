@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mike Charles</title>
-    <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/</link>
+    <link>http://mikecharl.es/tags/</link>
     <description>Recent content in Tags on Mike Charles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Feb 2019 16:42:48 +0000</lastBuildDate>
     
-	<atom:link href="http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mikecharl.es/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Aws</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/aws/</link>
+      <link>http://mikecharl.es/tags/aws/</link>
       <pubDate>Wed, 20 Feb 2019 16:42:48 +0000</pubDate>
       
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/aws/</guid>
+      <guid>http://mikecharl.es/tags/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fun</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/fun/</link>
+      <link>http://mikecharl.es/tags/fun/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/fun/</guid>
+      <guid>http://mikecharl.es/tags/fun/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lambda</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/lambda/</link>
+      <link>http://mikecharl.es/tags/lambda/</link>
       <pubDate>Wed, 20 Feb 2019 16:42:48 +0000</pubDate>
       
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/lambda/</guid>
+      <guid>http://mikecharl.es/tags/lambda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Networks</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/networks/</link>
+      <link>http://mikecharl.es/tags/networks/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/networks/</guid>
+      <guid>http://mikecharl.es/tags/networks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Serverless</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/serverless/</link>
+      <link>http://mikecharl.es/tags/serverless/</link>
       <pubDate>Wed, 20 Feb 2019 16:42:48 +0000</pubDate>
       
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/serverless/</guid>
+      <guid>http://mikecharl.es/tags/serverless/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vpc</title>
-      <link>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/vpc/</link>
+      <link>http://mikecharl.es/tags/vpc/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://nomorewebservers.s3-website-eu-west-1.amazonaws.com/tags/vpc/</guid>
+      <guid>http://mikecharl.es/tags/vpc/</guid>
       <description></description>
     </item>
     
