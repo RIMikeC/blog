@@ -278,7 +278,7 @@ last line</p>
                    
                     
                     <li>
-                        <a href="mailto:mcriverisland@gmail.com">
+                        <a href="mailto:mailto:mcriverisland@gmail.com">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
@@ -289,7 +289,7 @@ last line</p>
                     
                     
                     <li>
-                        <a href="looknoservers">
+                        <a href="https://twitter.com/looknoservers">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>

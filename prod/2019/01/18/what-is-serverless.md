@@ -318,7 +318,7 @@ So now it&rsquo;s easy to see why serverless makes sense for modern businesses -
                    
                     
                     <li>
-                        <a href="mailto:mcriverisland@gmail.com">
+                        <a href="mailto:mailto:mcriverisland@gmail.com">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
@@ -329,7 +329,7 @@ So now it&rsquo;s easy to see why serverless makes sense for modern businesses -
                     
                     
                     <li>
-                        <a href="looknoservers">
+                        <a href="https://twitter.com/looknoservers">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
