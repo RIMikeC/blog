@@ -9,7 +9,7 @@ repo:
 
 # Build the website in the prod directory and push it to s3
 
-prod:	dev
+prod:	dev/content/post dev/static
 	( cd prod ; rm -rf * )
 	( cd dev ; hugo -t hugo-theme-cleanwhite -d ../prod )
 	( cd prod ; aws s3 sync . s3://mikecharl.es/ --region eu-west-1 )
