@@ -10,11 +10,10 @@ tags:
     - AWS
     - serverless
     - lambda
-URL:		"/2019/01/18/what-is-serverless.md"
+URL:		"/2019/01/18/what-is-serverless/"
 categories:  ["Tech" ]
 ---
 
-{:.no_toc}
 
 # What is Serverless?
 Serverless computing is a service, that runs your code for you on a server that it determines.
@@ -25,11 +24,13 @@ Serverless has been around for a few years now, but has recently gained populari
 
 ### Is it faster?
 #### Yes (and  no)
+{:.no_toc}
 A team of developers that never has to worry about provisioning, monitoring, patching or upgrading infrastructure is freed up to focus on making great software. This narrow focus means they'll deliver faster, so in that respect, serverless is faster. However, once the code is running, it's pretty much the same whether it is in a serverless or a traditional environment, so in that respect; serverleress is no faster.
 
 
 ### Is it cheaper?
 #### Yes (and  yes)
+{:.no_toc}
 Writing software without having to specify, procure, install and configure servers means that the software delivery and testing cycles are significantly cheaper than they would otherwise be. Once the code is running, the costs are again reduced, for example, you no longer need over-provision in order to cope with peak demand.
 
 ### What does it look like?
