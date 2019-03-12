@@ -14,6 +14,8 @@ URL:		"/2019/01/18/what-is-serverless.md"
 categories:  ["Tech" ]
 ---
 
+{:.no_toc}
+
 # What is Serverless?
 Serverless computing is a service, that runs your code for you on a server that it determines.
 Although your code runs on a server, the term "serverless" is used as the person who writes the code does not need to know anything about the server.  

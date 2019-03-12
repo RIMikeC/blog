@@ -4,3 +4,5 @@ date: {{ .Date }}
 draft: true
 ---
 
+{:.no_toc}
+

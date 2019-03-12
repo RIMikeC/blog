@@ -147,7 +147,7 @@
                         
                     </div>
                     <h1>Blog Technology</h1>
-                    <h2 class="subheading"></h2>
+                    <h2 class="subheading">How to get a blog for less than a cup of coffee</h2>
                     <span  class="meta">Posted by Mike Charles on Wednesday, February 20, 2019
                         
                     </span>
@@ -225,8 +225,9 @@ The second problem is that I believe pationately in &ldquo;Build not Buy&rdquo;.
 <h2 id="back-to-the-future">Back to the Future</h2>
 
 <p>So, I drew a line under all the options above and decided to build something in <a href="https://aws.amazon.com/">AWS</a>. First point of call was the mountains of lovely <a href="https://www.terraform.io/">Terraform</a> I&rsquo;ve written over the years.
-Starting with the obvious choice (as I usually do), I dug up a module which creates an <a href="https://aws.amazon.com/ec2/">EC2</a> instance, like this:
-##insert diagram here</p>
+Starting with the obvious choice (as I usually do), I dug up a module which creates an <a href="https://aws.amazon.com/ec2/">EC2</a> instance, like this:</p>
+
+<p>![standard web server](&ldquo;../../images/stdwebserver.png&rdquo;)</p>
 
         
                 
