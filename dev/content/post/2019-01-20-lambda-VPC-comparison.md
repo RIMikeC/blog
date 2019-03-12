@@ -1,4 +1,5 @@
 ---
+layout:		post
 title:       "lambda and networks"
 subtitle:    ""
 description: ""

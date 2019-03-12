@@ -15,8 +15,8 @@ home = ["HTML", "RSS"]
   keyword = "list of key words"
   slogan = "Love code. Hate servers."
 
-  image_404 = "img/404-bg.jpg"
-  title_404 = "你来到了没有知识的荒原 :("
+  image_404 = "images/404-bg.jpg"
+  title_404 = "how did you get here?"
 
   # Sidebar settings
   sidebar_about_description = "Dad, techy, Arsenal fan"
@@ -27,7 +27,6 @@ home = ["HTML", "RSS"]
 
   [params.social]
   rss       = true
-#  email     = "mailto:email@mikecharl.es"
   email     = "mailto:mcriverisland@gmail.com"
   facebook  = "https://www.facebook.com/M1keCharles"
   twitter   = "https://twitter.com/looknoservers"
@@ -35,7 +34,7 @@ home = ["HTML", "RSS"]
   github    = "https://github.com/RIMikeC"
 
   friends = true
-  bookmarks = false
+  bookmarks = true
   about_me = true
 
   [[params.friend_link]]

@@ -1,4 +1,5 @@
 ---
+layout:		post
 title:       "lambda costs"
 subtitle:    ""
 description: ""

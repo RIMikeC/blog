@@ -176,7 +176,16 @@
                         </header>
                         <nav id="TableOfContents">
 <ul>
-<li><a href="#blog-technology">Blog Technology</a></li>
+<li><a href="#blog-technology">Blog Technology</a>
+<ul>
+<li><a href="#option1-get-a-free-lunch">Option1 - Get a Free Lunch</a>
+<ul>
+<li><a href="#leason-learned-there-s-no-such-things-as-a-free-lunch">Leason learned - <em>there&rsquo;s no such things as a free lunch</em></a></li>
+</ul></li>
+<li><a href="#option-2-nobody-ever-got-sacked-for-buying-from-the-market-leader">Option 2 - Nobody Ever Got Sacked for Buying From the Market Leader</a></li>
+<li><a href="#lesson-learned-build-not-buy">Lesson Learned - <em>build not buy</em></a></li>
+<li><a href="#back-to-the-future">Back to the Future</a></li>
+</ul></li>
 </ul>
 </nav>
         		
@@ -184,11 +193,40 @@
 
 <h1 id="blog-technology">Blog Technology</h1>
 
-<p>text
-text
-text
-text
-last line</p>
+<p>I decided at the start of this year to get a presence for myself in the web. Here were my requirements:
+- Must be able to host the occassional blog post (static content only)
+- Must require minimal maintenance
+- Must have a modern, clean look and feel
+- Must provide a reasonable user experience
+- Must cost less that a cup of coffee per month
+- Should offer good availability, but does not have to be 24x7
+I thought when I wrote all these down that I would have several different options and that I&rsquo;d spend some time getting each of them working, then maybe get some of the UX guys at work to pick a favourite. Oh, how wrong I was.</p>
+
+<h2 id="option1-get-a-free-lunch">Option1 - Get a Free Lunch</h2>
+
+<p>There are plenty of sites offering free web site hosting, have a look at some <a href="https://hostingfacts.com/free-web-hosting-sites/">here</a>, however there really is no such thing as a free lunch. You don&rsquo;t have to dig vey deep into these offerings before you realise that they are only useful as a play area. Even then, you had better read the small pring very carefully.</p>
+
+<p>For example, some hosting providers say that if your level of traffic is too high, they will remove the site completley! Others suck you in with a cheap initial offering, but fail to disclose hidden charges that are allowed to hit you with later on.</p>
+
+<h3 id="leason-learned-there-s-no-such-things-as-a-free-lunch">Leason learned - <em>there&rsquo;s no such things as a free lunch</em></h3>
+
+<h2 id="option-2-nobody-ever-got-sacked-for-buying-from-the-market-leader">Option 2 - Nobody Ever Got Sacked for Buying From the Market Leader</h2>
+
+<p>After a bit of research I became disallusioned with the freebie hosting sites and decided to stick with mainstream providers. The first stop for my requirements should probably always have been  WordPress. Wordpress are by far and away the market leaders. They offer free website software (here)[<a href="https://en-gb.wordpress.org/download/">https://en-gb.wordpress.org/download/</a>] and also a range of <a href="https://wordpress.com/">hosted options</a></p>
+
+<p>However, when I looked at their hosting options, they didn&rsquo;t satisfy the &ldquo;cheaper than coffee&rdquo; requirement. So, I thought I&rsquo;d use them only as a fallback if something went wrong with what my gut was telling me would be the right option for me.</p>
+
+<h2 id="lesson-learned-build-not-buy">Lesson Learned - <em>build not buy</em></h2>
+
+<p>I have two problems with using Wordpress.
+The first is that they are so pervasive, that I just feel like almost anything else is going to feel new and fresh. Life is really boring when everyone thinks the same.
+The second problem is that I believe pationately in &ldquo;Build not Buy&rdquo;. I have a chance here to put my money where my mouth is and build something at least as good as an OTS product, but built specifically to cater for my needs.</p>
+
+<h2 id="back-to-the-future">Back to the Future</h2>
+
+<p>So, I drew a line under all the options above and decided to build something in <a href="https://aws.amazon.com/">AWS</a>. First point of call was the mountains of lovely <a href="https://www.terraform.io/">Terraform</a> I&rsquo;ve written over the years.
+Starting with the obvious choice (as I usually do), I dug up a module which creates an <a href="https://aws.amazon.com/ec2/">EC2</a> instance, like this:
+##insert diagram here</p>
 
         
                 

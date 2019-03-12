@@ -1,4 +1,5 @@
 ---
+layout:		post
 title:       "Lambda Stats"
 subtitle:    "stats aboot lambda"
 description: "stats aboot lambda"
