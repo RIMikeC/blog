@@ -12,3 +12,6 @@ tags:
    - lambda
 categories:  ["Tech" ]
 ---
+
+{:.no_toc}
+

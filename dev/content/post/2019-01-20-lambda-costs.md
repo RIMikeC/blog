@@ -13,6 +13,9 @@ tags:
 categories:  ["Tech" ]
 ---
 
+{:.no_toc}
+
+
 A post aboot how much it *really* costs to run lambda?
 
 
