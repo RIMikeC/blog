@@ -147,7 +147,7 @@
                         
                     </div>
                     <h1>Blog Technology</h1>
-                    <h2 class="subheading">How to get a blog for less than a cup of coffee</h2>
+                    <h2 class="subheading">How to host a blog for less than a cup of coffee</h2>
                     <span  class="meta">Posted by Mike Charles on Wednesday, February 20, 2019
                         
                     </span>
@@ -201,7 +201,8 @@
 
 <h1 id="blog-technology">Blog Technology</h1>
 
-<p>I decided at the start of this year to get a presence for myself in the web. Here were my requirements:
+<p><a name="requirements"></a>
+I decided at the start of this year to get a presence for myself in the web. Here were my requirements:
 - Must be able to host the occassional blog post (static content only)
 - Must require minimal maintenance
 - Must have a modern, clean look and feel
@@ -212,23 +213,24 @@ I thought when I wrote all these down that I would have several different option
 
 <h2 id="option1-get-a-free-lunch">Option1 - Get a Free Lunch</h2>
 
-<p>There are plenty of sites offering free web site hosting, have a look at some <a href="https://hostingfacts.com/free-web-hosting-sites/">here</a>, however there really is no such thing as a free lunch. You don&rsquo;t have to dig vey deep into these offerings before you realise that they are only useful as a play area. Even then, you had better read the small pring very carefully.</p>
+<p>There are plenty of sites offering free web site hosting, have a look at some <a href="https://hostingfacts.com/free-web-hosting-sites/">here</a>, however there really is no such thing as a free lunch. You don&rsquo;t have to dig very deep into these offerings before you realise that they are only useful as a play area. Even then, you had better read the small print very carefully.</p>
 
-<p>For example, some hosting providers say that if your level of traffic is too high, they will remove the site completley! Others suck you in with a cheap initial offering, but fail to disclose hidden charges that are allowed to hit you with later on.</p>
+<p>For example, some hosting providers say that if your level of traffic is too high, they will remove the site completely! Others suck you in with a cheap initial offering, but fail to disclose hidden charges that are allowed to hit you with later on.</p>
 
 <h4 id="leason-learned-there-s-no-such-things-as-a-free-lunch">Leason learned - <em>there&rsquo;s no such things as a free lunch</em></h4>
 
 <h2 id="option-2-nobody-ever-got-sacked-for-buying-from-the-market-leader">Option 2 - Nobody Ever Got Sacked for Buying From the Market Leader</h2>
 
-<p>After a bit of research I became disallusioned with the freebie hosting sites and decided to stick with mainstream providers. The first stop for my requirements should probably always have been  WordPress. Wordpress are by far and away the market leaders. They offer free website software (here)[<a href="https://en-gb.wordpress.org/download/">https://en-gb.wordpress.org/download/</a>] and also a range of <a href="https://wordpress.com/">hosted options</a></p>
+<p>After a bit of research, I became disillusioned  with the freebie hosting sites and decided to stick with mainstream providers. The first stop for my requirements should probably always have been  WordPress. WordPress are by far and away the market leaders. They offer free website software (here)[<a href="https://en-gb.wordpress.org/download/">https://en-gb.wordpress.org/download/</a>] and also a range of <a href="https://wordpress.com/">hosted options</a></p>
 
 <p>However, when I looked at their hosting options, they didn&rsquo;t satisfy the &ldquo;cheaper than coffee&rdquo; requirement. So, I thought I&rsquo;d use them only as a fallback if something went wrong with what my gut was telling me would be the right option for me.</p>
 
 <h4 id="lesson-learned-build-not-buy">Lesson Learned - <em>build not buy</em></h4>
 
-<p>I have two problems with using Wordpress.
+<p>I have three problems with using Wordpress.
 The first is that they are so pervasive, that I just feel like almost anything else is going to feel new and fresh. Life is really boring when everyone thinks the same.
-The second problem is that I believe pationately in &ldquo;Build not Buy&rdquo;. I have a chance here to put my money where my mouth is and build something at least as good as an OTS product, but built specifically to cater for my needs.</p>
+The second problem is that nobody seems to just use Wordpress and its templates, everyone seems to load third-party plugins for indexing, searching etc. Now try googling &ldquo;wordpress plugin vulnerability&rdquo;.
+The third problem is that I believe passionately in &ldquo;Build not Buy&rdquo; as an architecture principle. I have a chance here to put my money where my mouth is and build something at least as good as an OTS product, but built specifically to cater for my needs.</p>
 
 <h2 id="back-to-the-future">Back to the Future</h2>
 
@@ -236,6 +238,14 @@ The second problem is that I believe pationately in &ldquo;Build not Buy&rdquo;.
 Starting with the obvious choice (as I usually do), I dug up a module which creates an <a href="https://aws.amazon.com/ec2/">EC2</a> instance, like this:</p>
 
 <p><img src="https://raw.githubusercontent.com/RIMikeC/blog/master/prod/images/stdwebserver.png" alt="standard web server" /></p>
+
+<p>I was just looking forward to testing my old code out (!), when it struck me that maybe I was missing a trick. Maybe there was a blog reference architecture on the AWS website?
+Sure enough, there are actually two! The <a href="https://aws.amazon.com/getting-started/tutorials/launch-a-wordpress-website/">first one</a> is a trivial run-Wordpress-on-EC2, but with <em>relatively</em> low performance and availability. The <a href="https://github.com/aws-samples/aws-refarch-wordpress">second</a> is a much more sophisticated  version, with HA and great performance built-in.
+Now, both of these have their merits. If your a novice who want to experiment, then the first option seems entirely reasonable. If you want a corporate website for a startup, then the second option may fit the bill. However, to fit my <A href="requirements">requirements</a> I needed something in between.</p>
+
+<p>So, my final design, the one implemeted here is as follows:</p>
+
+<p><img src="https://raw.githubusercontent.com/RIMikeC/blog/master/prod/images/finalwebsrvdesign.png" alt="standard s3 website" /></p>
 
         
                 
