@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Mike Charles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Feb 2019 16:42:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mikecharl.es/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blog Technology - part II</title>
+      <link>http://mikecharl.es/2019/03/19/cms/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mikecharl.es/2019/03/19/cms/</guid>
+      <description>Blog Technology Part II this is a post about content last line</description>
+    </item>
     
     <item>
       <title>Blog Technology - part I</title>
