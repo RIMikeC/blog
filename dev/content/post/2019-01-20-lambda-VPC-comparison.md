@@ -14,5 +14,4 @@ tags:
 categories:  ["Tech" ]
 ---
 
-{:.no_toc}
 

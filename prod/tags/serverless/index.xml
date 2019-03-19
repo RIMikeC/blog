@@ -6,13 +6,23 @@
     <description>Recent content in Serverless on Mike Charles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Feb 2019 16:42:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mikecharl.es/tags/serverless/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Blog Technology</title>
+      <title>Blog Technology - part II</title>
+      <link>http://mikecharl.es/2019/03/19/cms/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://mikecharl.es/2019/03/19/cms/</guid>
+      <description> Blog Technology Part II Just as there is with blog hosting, there are thousands of different software options for content management systems (CMS).
+I knew that my requirements were so simple that there was no way it would make sense for me to do anything other than build up something simple for myself from scratch. Plus, I had a secret weapon when it came to this part of my blog project - hugo </description>
+    </item>
+    
+    <item>
+      <title>Blog Technology - part I</title>
       <link>http://mikecharl.es/2019/02/20/blog-tech/</link>
       <pubDate>Wed, 20 Feb 2019 16:42:48 +0000</pubDate>
       
@@ -26,7 +36,7 @@
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mikecharl.es/post/2019-01-20-lambda-stats/</guid>
-      <description>{:.no_toc}</description>
+      <description></description>
     </item>
     
     <item>
@@ -35,7 +45,7 @@
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mikecharl.es/post/2019-01-20-lambda-vpc-comparison/</guid>
-      <description>{:.no_toc}</description>
+      <description></description>
     </item>
     
     <item>
@@ -44,8 +54,7 @@
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mikecharl.es/post/2019-01-20-lambda-costs/</guid>
-      <description>{:.no_toc}
-A post aboot how much it really costs to run lambda?</description>
+      <description>A post aboot how much it really costs to run lambda?</description>
     </item>
     
     <item>
