@@ -17,7 +17,7 @@
       <pubDate>Thu, 21 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>http://mikecharl.es/2019/03/21/serverless-patterns/</guid>
-      <description>Serverless Patterns text</description>
+      <description>Serverless Patterns Anyone with infrastructure architecture experience worth their salt will tell you that patterns are incredibly important. Patterns establish &amp;ldquo;how&amp;rdquo; you achieve a goal in computing, by explicitly showing you exactily how it&amp;rsquo;s been successfully achieved in the past. A pattern could be anything from a single module of code, to a complete reference architecture for a complex global system. The scale is not important, its the fact that you have a cookie cutter at your fingertips, that you can use again and again, rather than starting from scratch.</description>
     </item>
     
   </channel>
