@@ -76,6 +76,10 @@
                     </li>
                     
                     <li>
+                        <a href="/categories/patterns">patterns</a>
+                    </li>
+                    
+                    <li>
                         <a href="/categories/tech">tech</a>
                     </li>
                     
@@ -182,6 +186,7 @@
 <ul>
 <li><a href="#hugo">Hugo</a></li>
 </ul></li>
+<li><a href="#conclusion">Conclusion</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -196,17 +201,44 @@
 
 <h3 id="hugo">Hugo</h3>
 
-<p>Hugo is open source software used to build static websites. It&rsquo;s gained popularity quickly because it massively speeds up people like me who just want to concentrate on the content and not bother with endless javascript and CSS bug-fixing.I may write another blog post about hugo some other time. For now, just know that with a single command you can get hugo to build a website from <a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a>, fire up a web server, or check your site for errors.</p>
+<p>Hugo is open source software used to build static websites. It&rsquo;s gained popularity quickly because it massively speeds up people like me who just want to concentrate on the content and not bother with endless javascript and CSS bug-fixing. I may write another blog post about hugo some other time. For now, just know that with a single command you can get hugo to build a website from <a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a>, fire up a web server, or check your site for errors.</p>
 
 <p>So, my laziness has taken over and I&rsquo;ve got to the point now where I everything I need to do with my content is just one command. I use <a href="https://github.com">Github</a> as my git repository for all the markdown, I edit locally on my laptop, then one command to push back to the repo, or another single command to fire up a local web server for testing. Once I&rsquo;m happy with the content, it&rsquo;s just one command to push the page or image to the live server ie the s3 bucket.</p>
 
 <p><img src="https://raw.githubusercontent.com/RIMikeC/blog/master/prod/images/cms.png" alt="cms" /></p>
+
+<p>For example, to build a test web server I use</p>
+
+<pre><code class="language-shell">make test
+</code></pre>
+
+<p>To build the live server from my local version -</p>
+
+<pre><code class="language-shell">make prod
+</code></pre>
+
+<p>Here&rsquo;s the relevant part of the Makefile -</p>
+
+<pre><code>prod:	dev/content/post dev/static
+	( cd prod ; rm -rf * )							# Remove everything in prod
+	( cd dev  ; hugo -t hugo-theme-cleanwhite -d ../prod )			# Build a website from dev
+	( cd prod ; aws s3 sync . s3://mikecharl.es/ --region eu-west-1 )	# Push changes to s3 bucket
+</code></pre>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Content management is easy when you have only one developer working alone. Hugo makes it even easier.
+If you don&rsquo;t have a copy of Hugo in your toolset, then download it now; it&rsquo;s open source, fast and it works.</p>
 
         
                 
         
               <hr>
               <ul class="pager">
+                  
+                  <li class="previous">
+                      <a href="/2019/03/21/serverless-patterns" data-toggle="tooltip" data-placement="top" title="Serverless Patterns">&larr; Previous Post</a>
+                  </li>
                   
                   
                   <li class="next">
