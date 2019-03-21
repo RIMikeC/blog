@@ -25,4 +25,9 @@ Ask anyone who's worked with me over the past twenty something years and they'll
 
 Ask anyone who's worked with me since April 2015, and they'll tell you that I'm a staunch advocate of serverless computing. So, of course, I'm going to love a serverless pattern. Here are some of the ones I find most useful.
 
+# Pattern One - Decoupling Two Microservices
+Microservices are, by their very nature, independent of each other. Or rather, that is how they are *supposed* to work. In fact its very easy to build microservcies that rely on a common service, so when that service is interrputed, the micorservies suffer. Another common problem is that people build a microservice, then only build a synchronous API around it. So, if the microservice slows down or dies altogether, every microservice that call the synchronous API also immediately suffers.
+The way round this is to de-couple your microservices, typically using a message queue. Message queues are implmented in AWS using one of the oldest services - the Simple Queueing Service (SQS).
+
+![sqs](https://raw.githubusercontent.com/RIMikeC/blog/master/prod/images/sqs.png)
 
