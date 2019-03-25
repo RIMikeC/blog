@@ -6,7 +6,6 @@ description: "a description"
 date:        2019-03-19
 author:      "Mike Charles"
 image:       "https://raw.githubusercontent.com/RIMikeC/blog/master/prod/images/ldn.jpg"
-draft: false
 published: true
 URL: "/2019/03/19/cms"
 tags:
