@@ -42,6 +42,20 @@
     
     
     <script src="/js/hux-blog.min.js"></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-136875413-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
 </head>
 </head>
 
@@ -151,7 +165,7 @@
                         
                     </div>
                     <h1>Serverless Patterns</h1>
-                    <h2 class="subheading">Write. Test. Release. Repeat.</h2>
+                    <h2 class="subheading">Déjà vu</h2>
                     <span  class="meta">Posted by      &#34;Mike Charles&#34; on Thursday, March 21, 2019
                         
                     </span>
@@ -190,7 +204,7 @@
 <h1 id="serverless-patterns">Serverless Patterns</h1>
 
 <p>Anyone with infrastructure architecture experience worth their salt will tell you that patterns are incredibly important. Patterns establish &ldquo;how&rdquo; you achieve a goal in computing, by explicitly showing you exactily how it&rsquo;s been successfully achieved in the past.
-A pattern could be anything from a single module of code, to a complete reference architecture for a complex global system. The scale is not important, its the fact that you have a cookie cutter at your fingertips, that you can use again and again, rather than starting from scratch. The power is in the reusability.</p>
+A pattern could be anything from a single module of code, to a complete reference architecture for a complex global system. The scale is not important, its the fact that you have a cookie cutter at your fingertips, that you can use again and again, rather than starting from scratch. <em>The power is in the reusability</em>.</p>
 
 <p>Ask anyone who&rsquo;s worked with me over the past twenty something years and they&rsquo;ll tell you that I love a pattern. My first archtiecture pattern (as far as I can remember), was a high level design for production Oracle databases. This was used to save time and effort in design process, but also helped us to automate Oracle admin processes post-implementation, as all our many instances started to look the same.</p>
 
@@ -198,10 +212,22 @@ A pattern could be anything from a single module of code, to a complete referenc
 
 <h1 id="pattern-one-decoupling-two-microservices">Pattern One - Decoupling Two Microservices</h1>
 
-<p>Microservices are, by their very nature, independent of each other. Or rather, that is how they are <em>supposed</em> to work. In fact its very easy to build microservcies that rely on a common service, so when that service is interrputed, the micorservies suffer. Another common problem is that people build a microservice, then only build a synchronous API around it. So, if the microservice slows down or dies altogether, every microservice that call the synchronous API also immediately suffers.
-The way round this is to de-couple your microservices, typically using a message queue. Message queues are implmented in AWS using one of the oldest services - the Simple Queueing Service (SQS).</p>
+<p>Microservices are, by their very nature, independent of each other. Or rather, that is how they are <em>supposed</em> to work. In fact its very easy to build microservcies that rely on a common service, so when that service is interrputed, the micorservies suffer. Another common problem is that people build a microservice, then only build a synchronous API around it. So, if the microservice slows down or dies altogether, every microservice that call the synchronous API also immediately suffers.</p>
+
+<p>The way round this is to de-couple your microservices, typically using a message queue. Message queues are implmented in AWS using one of the oldest services - the Simple Queueing Service (SQS).</p>
 
 <p><img src="https://raw.githubusercontent.com/RIMikeC/blog/master/prod/images/sqs.png" alt="sqs" /></p>
+
+<p>So, rather than pushing data to Microservice 2 via its API, Microservice 1 synchronously pops the data as a message onto a queue that Microservice 2 has created for this pupose. Microservice 2 uses a synchronous call to read the next message from the queue and then deletes it if it is valid. Note that both microservices uses synchronous calls, which are easy to program, but the net effect is that of an asynchronous communication pattern, as the two participants are independent of each other. I&rsquo;ve shown a lambda picking up the message in the diagram, but it could equally be a process on an EC2 instance, such as an ECS task.</p>
+
+<p>(What happens if the message is invalid will be the subject of a later post, let&rsquo;s keep it simple for now!)</p>
+
+<p>The Terraform to create the queue couldn&rsquo;t be simpler</p>
+
+<pre><code class="language-hcl">resource &quot;aws_sqs_queue&quot; &quot;example&quot; {}
+</code></pre>
+
+<p>The full code, can be found <a href="https://github.com/RIMikeC/patterns">here</a></p>
 
         
                 
@@ -422,6 +448,19 @@ The way round this is to de-couple your microservices, typically using a message
 
 
 
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-136875413-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
 
