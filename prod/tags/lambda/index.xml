@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Blog Technology - part I</title>
+      <link>http://mikecharl.es/2019/03/20/blog-tech/</link>
+      <pubDate>Wed, 20 Mar 2019 16:42:48 +0000</pubDate>
+      
+      <guid>http://mikecharl.es/2019/03/20/blog-tech/</guid>
+      <description>Blog Technology  I decided at the start of this year to get a presence for myself in the web. Here were my requirements: - Must be able to host the occassional blog post (static content only) - Must require minimal maintenance - Must have a modern, clean look and feel - Must provide a reasonable user experience - Must cost less that a cup of coffee per month - Should offer good availability, but does not have to be 24x7 I thought when I wrote all these down that I would have several different options and that I&amp;rsquo;d spend some time getting each of them working, then maybe get some of the UX guys at work to pick a favourite.</description>
+    </item>
+    
+    <item>
       <title>Blog Technology - part II</title>
       <link>http://mikecharl.es/2019/03/19/cms/</link>
       <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
@@ -31,12 +40,13 @@ I knew that my requirements were so simple that there was no way it would make s
     </item>
     
     <item>
-      <title>Blog Technology - part I</title>
-      <link>http://mikecharl.es/2019/02/20/blog-tech/</link>
-      <pubDate>Wed, 20 Feb 2019 16:42:48 +0000</pubDate>
+      <title>What Is Serverless?</title>
+      <link>http://mikecharl.es/2019/02/18/what-is-serverless/</link>
+      <pubDate>Mon, 18 Feb 2019 13:29:51 +0000</pubDate>
       
-      <guid>http://mikecharl.es/2019/02/20/blog-tech/</guid>
-      <description>Blog Technology  I decided at the start of this year to get a presence for myself in the web. Here were my requirements: - Must be able to host the occassional blog post (static content only) - Must require minimal maintenance - Must have a modern, clean look and feel - Must provide a reasonable user experience - Must cost less that a cup of coffee per month - Should offer good availability, but does not have to be 24x7 I thought when I wrote all these down that I would have several different options and that I&amp;rsquo;d spend some time getting each of them working, then maybe get some of the UX guys at work to pick a favourite.</description>
+      <guid>http://mikecharl.es/2019/02/18/what-is-serverless/</guid>
+      <description>What is Serverless? Serverless computing is a service, that runs your code for you on a server that it determines. Although your code runs on a server, the term &amp;ldquo;serverless&amp;rdquo; is used as the person who writes the code does not need to know anything about the server.
+It&amp;rsquo;s a confusing term. There are servers in a serverless environment, of course there are. However, there is a clear separation of responsibilities between the people who manage the servers and the people who write the code that runs on them.</description>
     </item>
     
     <item>
@@ -55,16 +65,6 @@ I knew that my requirements were so simple that there was no way it would make s
       
       <guid>http://mikecharl.es/post/2019-01-20-lambda-costs/</guid>
       <description>A post aboot how much it really costs to run lambda?</description>
-    </item>
-    
-    <item>
-      <title>What Is Serverless?</title>
-      <link>http://mikecharl.es/2019/01/18/what-is-serverless/</link>
-      <pubDate>Wed, 09 Jan 2019 13:29:51 +0000</pubDate>
-      
-      <guid>http://mikecharl.es/2019/01/18/what-is-serverless/</guid>
-      <description>What is Serverless? Serverless computing is a service, that runs your code for you on a server that it determines. Although your code runs on a server, the term &amp;ldquo;serverless&amp;rdquo; is used as the person who writes the code does not need to know anything about the server.
-It&amp;rsquo;s a confusing term. There are servers in a serverless environment, of course there are. However, there is a clear separation of responsibilities between the people who manage the servers and the people who write the code that runs on them.</description>
     </item>
     
   </channel>

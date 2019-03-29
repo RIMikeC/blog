@@ -2,15 +2,16 @@
 layout:		post
 title:		"What Is Serverless?"
 subtitle:	"...and why you should care"
+description:	"My description of serverless and some of the reasons why it's important"
 image:		"https://raw.githubusercontent.com/RIMikeC/blog/master/hugo/static/images/ldn.jpg"
 author:		"Mike Charles"
 published:	true
-date:		2019-01-09T13:29:51Z
+date:		2019-02-18T13:29:51Z
 tags:
     - AWS
     - serverless
     - lambda
-URL:		"/2019/01/18/what-is-serverless/"
+URL:		"/2019/02/18/what-is-serverless/"
 categories:  ["Tech" ]
 ---
 
