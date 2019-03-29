@@ -2,6 +2,7 @@
 layout:		post
 title:		"What Is Serverless?"
 subtitle:	"...and why you should care"
+description:	"My description of serverless and some of the reasons why it's important"
 image:		"https://raw.githubusercontent.com/RIMikeC/blog/master/hugo/static/images/ldn.jpg"
 author:		"Mike Charles"
 published:	true
