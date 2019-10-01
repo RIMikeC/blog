@@ -15,6 +15,6 @@ prod:	dev/content/post dev/static
 	( cd prod ; aws s3 sync . s3://mikecharl.es/ --region eu-west-1 )	# Push changes to s3 bucket
 
 test:	
-	cd dev && hugo serve -t hugo-theme-cleanwhite
+	cd dev && hugo serve -v -D  -t hugo-theme-cleanwhite
 
 .PHONY:	repo test
