@@ -29,7 +29,7 @@ Microservices are, by their very nature, independent of each other. Or rather, t
 
 The way round this is to de-couple your microservices, typically using a message queue. Message queues are implmented in AWS using one of the oldest services - the Simple Queueing Service (SQS).
 
-![sqs](https://raw.githubusercontent.com/RIMikeC/blog/master/prod/images/sqs.png)
+![async](https://raw.githubusercontent.com/RIMikeC/blog/master/prod/images/asyncmsg.png)
 
 So, rather than pushing data to Microservice 2 via its API, Microservice 1 synchronously pops the data as a message onto a queue that Microservice 2 has created for this pupose. Microservice 2 uses a synchronous call to read the next message from the queue and then deletes it if it is valid. Note that both microservices uses synchronous calls, which are easy to program, but the net effect is that of an asynchronous communication pattern, as the two participants are independent of each other. I've shown a lambda picking up the message in the diagram, but it could equally be a process on an EC2 instance, such as an ECS task.
 
