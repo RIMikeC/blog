@@ -43,3 +43,32 @@ resource "aws_sqs_queue" "example" {}
 
 The full code, can be found [here](https://github.com/RIMikeC/patterns)
 
+
+# Pattern Two - Fan Out
+The second pattern is almost as simple. If a message is useful to more than one consumer, then use the fan-out. So here the producer put the message onto a topic, rather than a queue. It's possible to configure several consumers to a topic, but this has the effect to coupling all of the consumers together. They have to agree on the current state in order for the whole system to work. Betters is to have queues consuming from the topic and then lambdas picking from the queues.
+
+
+![fanout](https://raw.githubusercontent.com/RIMikeC/blog/master/prod/images/fanout.png)
+
+By using this pattern, you can scale from one to  many subscriber effortlessly and they will all execute indepently of each of each and of the consumer. If a subscriber slows down or even goes off line, then the others will carry on regardless.
+
+#Pattern Three - Key Value Store CRUD
+
+This pattern seems so simple, so it baffles me as to why so many people get it completely wrong. The problem being solved is how to apply CRUD operations to a relatively simple storage subsystem. 
+This is often implemented in one of three way (see if you can work out why *they are all WRONG*!)
+1. Let the client call the DynamoDB API directly form the Internet
+1. The client calls an API which invokes a lambda function to perform the operation
+1. Create a two tier application ie a new EC2 instance controlling the DynamoDB table, just for simple CRUD operations
+This is the optimal solution:
+
+![CRUD](https://raw.githubusercontent.com/RIMikeC/blog/master/prod/images/keyvaluecrud.png)
+The client hits a RESTful API, which is served by API Gateway. API Gateway handles the authentication and throttling and then passes the command straignt through to Dynamodb, without having to create an instance or lambda in bewtween. This is particularly good for presenting information across the Internet in a way that easy for clients to consume, just by hitting a URI.
+
+| CRUD Operation | API Method | DynamoDB Action | 
+| :--- | :--- | :--- |
+| *C*reate | POST | PutItem |
+| *R*ead | GET | GetItem |
+| *U*pdate | PUT | PutItem |
+| *D*elete | DELETE | DeleteItem |
+
+
