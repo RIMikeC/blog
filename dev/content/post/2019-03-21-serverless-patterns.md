@@ -52,7 +52,7 @@ The second pattern is almost as simple. If a message is useful to more than one 
 
 By using this pattern, you can scale from one to  many subscriber effortlessly and they will all execute indepently of each of each and of the consumer. If a subscriber slows down or even goes off line, then the others will carry on regardless.
 
-#Pattern Three - Key Value Store CRUD
+# Pattern Three - Key Value Store CRUD
 
 This pattern seems so simple, so it baffles me as to why so many people get it completely wrong. The problem being solved is how to apply CRUD operations to a relatively simple storage subsystem. 
 This is often implemented in one of three way (see if you can work out why *they are all WRONG*!)
@@ -64,11 +64,31 @@ This is the optimal solution:
 ![CRUD](https://raw.githubusercontent.com/RIMikeC/blog/master/prod/images/keyvaluecrud.png)
 The client hits a RESTful API, which is served by API Gateway. API Gateway handles the authentication and throttling and then passes the command straignt through to Dynamodb, without having to create an instance or lambda in bewtween. This is particularly good for presenting information across the Internet in a way that easy for clients to consume, just by hitting a URI.
 
-| CRUD Operation | API Method | DynamoDB Action | 
-| :--- | :--- | :--- |
-| *C*reate | POST | PutItem |
-| *R*ead | GET | GetItem |
-| *U*pdate | PUT | PutItem |
-| *D*elete | DELETE | DeleteItem |
-
+<table>
+ <tr>
+  <th>CRUD Operation</th>
+  <th>API Method</th>
+  <th>DynamoDB Action</th>
+ </tr>
+ <tr>
+  <th>C reate</th>
+  <th>POST</th>
+  <th>PutItem</th>
+ </tr>
+ <tr>
+  <th>R ead</th>
+  <th>GET</th>
+  <th>GetItem</th>
+ </tr>
+ <tr>
+  <th>U pdate</th>
+  <th>PUT</th>
+  <th>PutItem</th>
+ </tr>
+ <tr>
+  <th>D elete</th>
+  <th>DELETE</th>
+  <th>DeleteItem</th>
+ </tr>
+</table>
 
