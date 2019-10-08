@@ -92,7 +92,7 @@ The client hits a RESTful API, which is served by API Gateway. API Gateway handl
  </tr>
 </table>
 
-# Lambda as an Application Layer Target
+# Pattern Four - Lambda as an Application Layer Target
 AWS only provide one mechanism for load balancing layer 7 traffic, the Application load Balancer (ALB). There are now many cases for ALBs, the most common being:
 1. In front of EC2 instances serving HTTP or HTTPS
 1. In front of ECS or other container services
