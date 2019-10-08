@@ -197,6 +197,7 @@ if (!doNotTrack) {
 <li><a href="#pattern-one-decoupling-two-microservices">Pattern One - Decoupling Two Microservices</a></li>
 <li><a href="#pattern-two-fan-out">Pattern Two - Fan Out</a></li>
 <li><a href="#pattern-three-key-value-store-crud">Pattern Three - Key Value Store CRUD</a></li>
+<li><a href="#lambda-as-an-application-layer-target">Lambda as an Application Layer Target</a></li>
 </ul>
 </nav>
         		
@@ -277,6 +278,16 @@ The client hits a RESTful API, which is served by API Gateway. API Gateway handl
   <th>DeleteItem</th>
  </tr>
 </table>
+
+<h1 id="lambda-as-an-application-layer-target">Lambda as an Application Layer Target</h1>
+
+<p>AWS only provide one mechanism for load balancing layer 7 traffic, the Application load Balancer (ALB). There are now many cases for ALBs, the most common being:
+1. In front of EC2 instances serving HTTP or HTTPS
+1. In front of ECS or other container services
+An emerging use case is an interesting serverless option, namely using lambda as an application target.</p>
+
+<p><img src="https://raw.githubusercontent.com/RIMikeC/blog/master/prod/images/lambdaapptarget.png" alt="ALB" />
+The ALB uses path-based routing to select which lambda to invoke.</p>
 
         
                 
